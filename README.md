@@ -7,7 +7,7 @@
 [Идентификация целевых машин](#Идентификация-целевых-машин)  
 [Open system interconnection basic reference model (OSI)](#Open-system-interconnection-basic-reference-model-(OSI))
 [Transmission Control Protocol/Internet Protocol (TCP/IP)](#Transmission-Control-Protocol/Internet-Protocol-(TCP/IP))
-[Составление списка целей](Составление-списка-целей)
+[Составление списка целей](#Составление-списка-целей)
 ### Основная терминология
 **Penetration testing = pentest** = тестирование на проникновение  
 Целевая система =жертва = цель = **Metasploitable2**  
