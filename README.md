@@ -145,4 +145,4 @@ su alex
 ![Bits](https://ehhe2q.dm2304.livefilestore.com/y3pd7O2o0w0K4KRfC9ZcY4mFZKW7PEBVbeVXNU_AUC65G428-4sowOMm5JTLLsOaYlKPpKmE5l6Ae2a8kSDQXcbcwVmG8vfzOlHN1TyZwh0njVfL__-TTsHQ33jUZwoRkEFsgh6MXVDvJqAkkx4PflTw3PjdrtCzjI97bLKCXu88RU/Bits.jpg?psid=1)
 
 > Вы пытаетесь пропинговать, например, адрес соседнего компьютера командой ping 192.168.1.118. Данные этого приложения показаны фиолетовым параллелепипедом.
-![Ping2](https://rcp7qg.dm2304.livefilestore.com/y3pMsp3EZ65_D8WND5aS5-W62NVEKprXcl0K6Yh_hIo5ABCsCxtknodJX3lNXQ5gQPaFbBNRuRVOOZJEs8LbG1Ta3HAspvv8R8yytQR8lyyUoYCf02iz9T3oxzjAtogZyALHBNsEYTBXzKV3xFfOhITcQ4iKM357PoioWKCvOZ1hgA/Ping2.jpg?psid=1)
+![Ping2](https://ehhe2q.dm2304.livefilestore.com/y3pBf_Vg53Z_fywVTzXZZSiYFJm-kV34xOhiRbSn87dxzQUFedHaK4QC-qqWEWItG9z8m2QONUgZ8qosg13gHbq1kZoIR0P1Ja2nZvzkoZG_819g8E12dg_deaHqaZmJ3dUwF43FbrxELfrM4TnzGlYRdr1RWEp1duWY-IBZhXd3sw/Damage_BF4.jpg?psid=1)
