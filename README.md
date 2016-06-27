@@ -5,8 +5,8 @@
 [Методология pentest](#Методология-pentest)  
 [Инструменты для сбора информации](#Конфиденциальность)  
 [Идентификация целевых машин](#Идентификация-целевых-машин)  
-[Open system interconnection basic reference model (OSI)](#open-system-interconnection-basic-reference-model-osi)
-[Transmission Control Protocol/Internet Protocol (TCP/IP)](#transmission-control-protocolinternet-protocol-tcpip)
+[Open system interconnection basic reference model (OSI)](#open-system-interconnection-basic-reference-model-osi)  
+[Transmission Control Protocol/Internet Protocol (TCP/IP)](#transmission-control-protocolinternet-protocol-tcpip)  
 [Составление списка целей](#Составление-списка-целей)
 ### Основная терминология
 **Penetration testing = pentest** = тестирование на проникновение  
