@@ -130,44 +130,41 @@ su alex
 
 ### Путь кадра
 > Состояние покоя сети - утопия.  
-![Network Status](https://ehhe2q.dm2304.livefilestore.com/y3px60Tmnue5mafwtTsRFzT_kQlDPUxJnSvN9URXqeIc4OGT7f32CBFgAWDmzPIEtyONKAa9XGzu4Ra4NUfb1-nw_A5xGRbfp7NwKWVi6qJZ7v7pGWHHTbldioL50ZkN-NsR_NZ76dijdWwgu3K1SyKLtm5xbPbeQTRtlANSJIPA1k/Network%20Status.jpg?psid=1)
+![Network Status](https://habrastorage.org/getpro/habr/post_images/17e/31e/70f/17e31e70f22d7d5b725dea62008da6b9.jpg)
 
 > Вы пытаетесь пропинговать, например, адрес соседнего компьютера командой ping 192.168.1.118. Данные этого приложения показаны фиолетовым параллелепипедом.
-![Ping1](https://ehhe2q.dm2304.livefilestore.com/y3pMjwZnhCRXMTNuymL5Mz66qb_amigtM8B0w-kTZlpvvc0n7RlZWMLFz62Be6h0O4azroLUBb5OCkVKwbMIS94j2JBLrn0DxtvnWnKzVluAe6RRxgGowxYx7SD6qIeooHHL_W_sDHhLlkbEa-cvRTdK7wEoowR83293q96L4UJys8/Ping.jpg?psid=1)
+![Ping1](https://habrastorage.org/getpro/habr/post_images/4a3/dca/b98/4a3dcab98d4c67322ef5b631b5a87533.jpg)
 
 > За это отвечает протокол ICMP. В него инкапсулируется информация от приложения — это означает, что к данным 5-го уровня добавляется заголовок со служебной информацией 4-го уровня
-![ICMP](https://ehhe2q.dm2304.livefilestore.com/y3p_th8KlZMNru4VGAR4_cD0yMm9P_jvpHaxNgjg_ebEjx3d9b98frD7AnMph1S-VrlcB-4wafzpEJ2-s0sX8goYOeT0btoXfyev0BQyAvNbRVc2FTpG8ctV5ub8EvbC99zZyA6A-MdaAglfYv0U8hSb-PO9NAUGroasgw2pcTqRTI/ICMP.jpg?psid=1)
+![ICMP](https://habrastorage.org/getpro/habr/post_images/f7b/dff/454/f7bdff454e14f2a19e2af08974f33bbf.jpg)
 
 > Его данные упаковываются (инкапсулируются) в IP-пакеты, где в заголовке указан IP-адрес получателя (192.168.1.118) и IP-адрес отправителя — логические адреса.
-![IP-packet](https://ehhe2q.dm2304.livefilestore.com/y3pNEQeu3TwgwOPnjrwEak__VD85oqas6lxzPgOFKB5V1Dv3kGQSNGKqP04dpbGhlUF_wH_8Q35XGhly9MVRrQtMwbC3iWwJeesJpSfjoiAYhpwR3-yw59qhwrMxt_pKPpSdyOiAu1wReOb0sDhSeebWRYtYOiThtqHICq1yMqfvDY/IP-packet.jpg?psid=1)
+![IP-packet](https://habrastorage.org/getpro/habr/post_images/28e/b99/244/28eb99244ffcb32f091eec8cca6b0933.jpg)
 
 > А затем всё это инкапсулируется в Ethernet-кадры с MAC-адресами отправителя и получателя — физическими адресами.
-![Ethernet frame](https://ehhe2q.dm2304.livefilestore.com/y3pyPTTcaCzqAR4K0C7iQQ1U7eJHDoXa2W9wqq8MvKDjIvbCUgxrjotrsDunHK4UZf3G-00eykULUpuEXzljdbgwHMPaUmVKrrUb4vu8HKz2paeg1UpMNS6I6jwDMM0rzG9gOavi_6Jym8c09HDXT1JB0LscCws50r3vuHf9PyTZls/Ethernet%20frame.jpg?psid=1)
+![Ethernet frame](https://habrastorage.org/getpro/habr/post_images/a01/6cc/afd/a016ccafd998fe772fa06d324783047b.jpg)
 
 > В последнюю очередь сетевая карта вашего компьютера дробит фрейм на биты и отправляет их в кабель.
-![Bits](https://ehhe2q.dm2304.livefilestore.com/y3pd7O2o0w0K4KRfC9ZcY4mFZKW7PEBVbeVXNU_AUC65G428-4sowOMm5JTLLsOaYlKPpKmE5l6Ae2a8kSDQXcbcwVmG8vfzOlHN1TyZwh0njVfL__-TTsHQ33jUZwoRkEFsgh6MXVDvJqAkkx4PflTw3PjdrtCzjI97bLKCXu88RU/Bits.jpg?psid=1)
-
-> Вы пытаетесь пропинговать, например, адрес соседнего компьютера командой ping 192.168.1.118. Данные этого приложения показаны фиолетовым параллелепипедом.
-
+![Bits](https://habrastorage.org/getpro/habr/post_images/83d/c2f/514/83dc2f51419b5eeb7ee589290912b9ba.jpg)
+![Bits transfer](https://habrastorage.org/getpro/habr/post_images/5d9/30d/02d/5d930d02d3f066c4ee6426b17ff0cc51.jpg)
 
 > Коммутатор из поступивших битов собирает первоначальный кадр
-
+![Build Frame](https://habrastorage.org/getpro/habr/post_images/8c5/984/c6e/8c5984c6ecf47caa9d18c30ef7eb6c4a.jpg)
 
 > Естественно, кадр опять передаётся в виде битов — это закон электроники, и вы должны просто всегда иметь это в виду.
-
-
-> Кадр приходит на целевой хост.
-
+![Bits2](https://habrastorage.org/getpro/habr/post_images/5d9/30d/02d/5d930d02d3f066c4ee6426b17ff0cc51.jpg)
+![Bits3](https://habrastorage.org/getpro/habr/post_images/9fd/e22/ea7/9fde22ea7b8b225d4bf4ca580f1e1f01.jpg)
 
 > Конечный хост, получив поток битов, собирает из них кадр, ещё только предполагая, что он предназначается ему. 
-
+![Destination](https://habrastorage.org/getpro/habr/post_images/f20/da7/f25/f20da7f25024998e075cddec43e2ed18.jpg)
 
 > Далее он сравнивает MAC-адрес получателя со своим и, если они совпадают, то заголовок второго уровня отбрасывается. IP-данные передаются на обработку вышестоящему протоколу. Если адреса не совпадают, то кадр отбрасывается вместе со всем содержимым.
-
+![MAC compare](https://habrastorage.org/getpro/habr/post_images/fcf/ef6/7d3/fcfef67d3d72a93558d4e716492f2dec.jpg)
 
 > Далее сравниваются IP-адрес получателя и этого устройства. Если совпадают, то заголовок сетевого уровня отбрасывается, и данные передаются транспортному уровню (ICMP)
-
-
+![IP-address compare](https://habrastorage.org/getpro/habr/post_images/fe0/b26/f75/fe0b26f757776925aad6ef5cd6bfac28.jpg)
+![IP2](https://habrastorage.org/getpro/habr/post_images/f1c/a8b/6fc/f1ca8b6fc3171f3562faf394f42c504e.jpg)
+![IP3](https://habrastorage.org/getpro/habr/post_images/6cb/579/e19/6cb579e190b46eff609f4983f07e843d.jpg)
 > Конечный хост обработал ICMP-запрос (echo-request) и готов послать ICMP-ответ (echo-reply) вашему компьютеру с адресом 192.168.1.131 и далее пункты 1-3 повторяются уже для нового кадра
 
 ### Составление списка целей
@@ -176,3 +173,5 @@ su alex
 * Определяются запущенные службы
 * Определяются системы обнаружения вторжений
 * В Kali Linux для этого можно использовать автоматизированные инструменты
+
+# Поиск и эксплуатация уязвимостей
