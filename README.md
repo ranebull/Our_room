@@ -120,7 +120,7 @@ su alex
 * С помощью сканера (например, nmap) из Kali Linux получить IP-адрес жертвы и список открытых портов
 
 ### Open system interconnection basic reference model (OSI)
-![OSI model](https://1.downloader.disk.yandex.ru/preview/02f3ffcaa6b2531973bc9cb1d45faeef172ad782162795e4421ab6192405e4f4/inf/ghmU6t_kLRG_JxooGQrKP2hM5SwGVnEC_w6QsnyLpP5vEQNNu3DKBdu5lb09ywMyAGlNuObK-Z0g8rxlkD-o9g%3D%3D?uid=89432683&filename=OSI%20model.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=1280x858)
+![OSI model](https://yadi.sk/i/htuczYlFspvH7)
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 
