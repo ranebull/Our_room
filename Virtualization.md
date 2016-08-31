@@ -121,3 +121,43 @@ This is too simplistic an analysis. For instance, at first glance, KVM is launch
 
 Hyper-V is often thought of as a Type 2 hypervisor because of its management through the Windows GUI; however, in reality, a hypervisor layer is loaded beneath the host operating system. Another wrinkle is that the term ‘bare metal’ (often used to signify a Type 1 hypervisor) is often used to refer to a hypervisor that loads (with or without a small embedded host operating system, and whether or not technically a Type 1 hypervisor) without installation on an existing platform, rather like an appliance. 
 VMware describes ESXi as a ‘bare metal’ hypervisor in this context. Flexiant Cloud Orchestrator’s deployment of both Xen and KVM also fit into this category. Appearances can thus be deceptive. 
+### SDN и libvirt
+**Программно-определяемая сеть или программно-конфигурируемая
+сеть (SDN, software-defined networking)** — сеть передачи данных, в которой
+уровень управления сетью отделён от устройств передачи данных и
+реализуется программно. Одна из форм виртуализации сети.  
+
+Ключевые принципы программно-определяемых сетей — разделение
+процессов передачи и управления данными, централизация управления сетью
+при помощи унифицированных программных средств, виртуализация
+физических  сетевых  ресурсов.  Протокол  OpenFlow,  реализующий
+независимый от производителя интерфейс между логическим контроллером
+сети и сетевым транспортом, является одной из реализаций концепции
+программно-определяемой  сети  и  считается  движущей  силой  её
+распространения и популяризации.  
+
+**libvirt** — свободная, кроссплатформенная библиотека управления
+виртуализацией. Библиотека для управления виртуализацией, реализующая интерфейс на
+языках C/C++, Python, Ruby. Входит в состав большинства дистрибутивов
+Linux и является основой для создания оболочек с Web-интерфейсом,
+например oVirt.  
+
+Позволяет управлять гипервизорами Xen, KVM, а также
+VirtualBox, OpenVZ, LXC, VMware ESX/GSX/Workstation/Player, QEMU.
+Позволяет контролировать по сети виртуальные машины, расположенные на
+других компьютерах. Совместно с libvirt используется менеджер виртуальных
+машин virt-manager, предоставляющий графический и консольный интерфейс
+для создания, контроля состояния виртуальных машин (средства virt-viewer,
+virt-manager).  
+
+В состав libvirt входит сервис libvirtd и консольный инструмент virsh.  
+
+**Поддерживаемые гипервизоры:**
+* LXC — система контейнеров Linux
+* OpenVZ — система контейнеров Linux
+* Kernel-based Virtual Machine/QEMU (KVM) — гипервизор и
+эмулятор
+* Xen — гипервизор
+* User-mode Linux (UML) — паравиртуализованное ядро
+* VirtualBox — гипервизор
+* VMware ESX, VMware GSX — гипервизоры
