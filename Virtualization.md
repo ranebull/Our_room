@@ -189,3 +189,14 @@ virt-manager).
 Подкачка в z/OS прозрачна для пользователя. Во время исполнения задания, только необходимые части программы переносятся или подкачиваются в центральную память. Страницы остаются в центральной памяти до тех пор, пока они необходимы, или до тех пор, пока другая страница используются тем же приложением или приложением с высоким приоритетом и пока в центральной памяти есть свободное место.  
 
 Выбранные страницы подкачиваются во вспомогательную память – для z/OS использует алгоритм «Least Used» (наименее используемые страницы). То есть z/OS предполагает, что страница, которая не использовалась в течение некоторого времени, вероятно, не будет использоваться в ближайшем будущем.
+
+### Почитай-ка
+[Виртуализация: новый подход к построению IT-инфраструктуры](http://www.ixbt.com/cm/virtualization.shtml)
+[What is paging?](https://www.ibm.com/support/knowledgecenter/zosbasics/com.ibm.zos.zconcepts/zconcepts_90.htm)
+[Виртуализация приложений: История появления и перспективы дальнейшего развития](http://www.ibm.com/developerworks/ru/library/l-virtual-machine-architectures/)
+[Технологии виртуализации: вчера, сегодня, завтра](http://citforum.ru/operating_systems/virtualization/index.shtml)
+[LinuxONE: мейнфрейм от IBM, работающий только с Linux. Подробности проекта](https://habrahabr.ru/company/ibm/blog/265413/)
+[SDN: кому и зачем это надо?](http://www.osp.ru/lan/2012/12/13033012/)
+[What Does a Hypervisor Do?](https://www.flexiant.com/2014/02/05/what-does-a-hypervisor-do/)
+[Virtio: Фреймворк виртуализации ввода-вывода для Linux](http://rus-linux.net/nlib.php?name=/MyLDP/vm/jones/virtio.html)
+[Виртуализация и облачные технологии](http://e-learning.bmstu.ru/moodle/pluginfile.php/3638/mod_resource/content/1/Организация ЭВМиС_8.pdf)
