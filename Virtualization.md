@@ -117,10 +117,12 @@
 
 Гипервизор 2 типа (иногда называемый гипервизором над ОС – Hosted hypervisor) запускается внутри ОС, которая в свою очередь запущена на каком- либо железе. Каждая гостевая ОС запущена поверх гипервизора. Основное отличие, почему гипервизор 1 типа лучше гипервизора 2 типа в том, что в 1 типе отсутствует оверхед, который происходит при доступе хостовой ОС к физическим ресурсам.  
 
-This is too simplistic an analysis. For instance, at first glance, KVM is launched as a process on a host Linux operating system, so appears to be a Type 2 hypervisor. In fact, the process launched merely gives access to a limited number of resources through the host operating system, and most performance sensitive tasks are performed by a kernel module which has direct access to the hardware.  
+Сравнение выглядит довольно простым. Например, на первый взгляд, KVM, запущенный в виде процесса на хостовом Linux-дистрибутиве¬, представляет собой гипервизор 2 типа. Но это несколько не так – процесс запущен, но дает доступ ограниченному числу ресурсов ОС, а самые высокопроизводительные задачи выполняются модулем ядра, который имеет прямой доступ к аппаратным ресурсам.  
 
-Hyper-V is often thought of as a Type 2 hypervisor because of its management through the Windows GUI; however, in reality, a hypervisor layer is loaded beneath the host operating system. Another wrinkle is that the term ‘bare metal’ (often used to signify a Type 1 hypervisor) is often used to refer to a hypervisor that loads (with or without a small embedded host operating system, and whether or not technically a Type 1 hypervisor) without installation on an existing platform, rather like an appliance. 
-VMware describes ESXi as a ‘bare metal’ hypervisor in this context. Flexiant Cloud Orchestrator’s deployment of both Xen and KVM also fit into this category. Appearances can thus be deceptive. 
+Hyper-V часто воспринимают как гипервизор 2 типа, потому что он управляется через графический интерфейс Windows. В действительности, гипервизор грузится до хостовой ОС.  
+
+Еще одна неточность заключается в том, что термин «голое железо» часто используется для обозначения гипервизора который загружается (с или без небольшой встроенной хостовой ОС и является технически гипервизором 1 типа) без установки на существующей платформе, как готовое решение. В этом контексте VMware описывает ESXi как гипервизор 1 типа.
+
 ### SDN и libvirt
 **Программно-определяемая сеть или программно-конфигурируемая
 сеть (SDN, software-defined networking)** — сеть передачи данных, в которой
