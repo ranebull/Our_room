@@ -8,3 +8,5 @@
 Корягин      | Arch Linux
 Максименко   | CentOS
 Скоропупов   | Ubuntu Server
+Скоропупов   | Ubuntu Server
+Скоропупов   | Ubuntu Server
