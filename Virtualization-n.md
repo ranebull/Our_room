@@ -28,3 +28,6 @@
 Некоторые реализации виртуализации на уровне ОС предоставляют механизмы копирования при записи на уровне файлов.  
 (Чаще всего, стандартная файловая система разделяется между разделами, и те разделы, которые изменяют файлы автоматически создают собственные копии)  
 Это упрощает резервное копирование, более эффективно и проще в кешировании, чем копирования при записи на уровне блоков в распространенных схемах больших систем виртуализации. Большие системы виртуализации, однако, могут работать с неродными (non-native) файловой системы и обладают возможностью создания и отката снимков целой системы.
+
+Quote of features from Docker web pages:
+>Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system >tools, system libraries – anything you can install on a server. This guarantees that it will always run the same, regardless of the >environment it is running in.
