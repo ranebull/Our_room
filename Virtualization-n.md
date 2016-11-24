@@ -29,5 +29,15 @@
 (Чаще всего, стандартная файловая система разделяется между разделами, и те разделы, которые изменяют файлы автоматически создают собственные копии)  
 Это упрощает резервное копирование, более эффективно и проще в кешировании, чем копирования при записи на уровне блоков в распространенных схемах больших систем виртуализации. Большие системы виртуализации, однако, могут работать с неродными (non-native) файловой системы и обладают возможностью создания и отката снимков целой системы.
 
+
+
+Оверхед - это разница между производительностью приложения внутри виртуального окружения и того же приложения работающего без использования виртуализации вообще.  
+
 Quote of features from Docker web pages:
->Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. This guarantees that it will always run the same, regardless of the environment it is running in.
+>Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. This guarantees that it will always run the same, regardless of the environment it is running in.  
+
+https://ru.wikipedia.org/wiki/Виртуализация_на_уровне_операционной_системы  
+https://en.wikipedia.org/wiki/Operating-system-level_virtualization  
+https://en.wikipedia.org/wiki/Docker_(software)  
+https://en.wikipedia.org/wiki/Linux_namespaces  
+https://habrahabr.ru/company/FastVPS/blog/208650/  
