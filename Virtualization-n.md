@@ -98,3 +98,8 @@ https://ru.wikipedia.org/wiki/FreeBSD_Jail
 https://en.wikipedia.org/wiki/Docker_(software)  
 https://en.wikipedia.org/wiki/Linux_namespaces  
 https://habrahabr.ru/company/FastVPS/blog/208650/  
+https://en.wikipedia.org/wiki/Systemd
+https://ru.wikipedia.org/wiki/Cgroups
+https://ru.wikipedia.org/wiki/Aufs
+https://ru.wikipedia.org/wiki/Каскадно-объединённое_монтирование
+https://ru.wikipedia.org/wiki/Btrfs
