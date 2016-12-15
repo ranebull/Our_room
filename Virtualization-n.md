@@ -77,10 +77,10 @@ FreeBSD Jails в основном преследуют 3 цели:
 
 
 https://ru.wikipedia.org/wiki/Виртуализация_на_уровне_операционной_системы  
-https://ru.wikipedia.org/wiki/Двоичный_интерфейс_приложений
+https://ru.wikipedia.org/wiki/Двоичный_интерфейс_приложений  
 https://en.wikipedia.org/wiki/Operating-system-level_virtualization  
-https://ru.wikipedia.org/wiki/Chroot
-https://ru.wikipedia.org/wiki/FreeBSD_Jail
+https://ru.wikipedia.org/wiki/Chroot  
+https://ru.wikipedia.org/wiki/FreeBSD_Jail  
 https://en.wikipedia.org/wiki/Docker_(software)  
 https://en.wikipedia.org/wiki/Linux_namespaces  
 https://habrahabr.ru/company/FastVPS/blog/208650/  
