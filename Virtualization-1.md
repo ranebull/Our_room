@@ -199,4 +199,4 @@ virt-manager).
 [SDN: кому и зачем это надо?](http://www.osp.ru/lan/2012/12/13033012/)  
 [What Does a Hypervisor Do?](https://www.flexiant.com/2014/02/05/what-does-a-hypervisor-do/)  
 [Virtio: Фреймворк виртуализации ввода-вывода для Linux](http://rus-linux.net/nlib.php?name=/MyLDP/vm/jones/virtio.html)  
-[Виртуализация и облачные технологии](http://e-learning.bmstu.ru/moodle/pluginfile.php/3638/mod_resource/content/1/Организация ЭВМиС_8.pdf)
+[Виртуализация и облачные технологии](http://e-learning.bmstu.ru/moodle/pluginfile.php/3638/mod_resource/content/1/Организация%20ЭВМиС_8.pdf)
